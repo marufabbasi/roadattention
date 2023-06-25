@@ -1,6 +1,6 @@
 # Road attention 
 
-This project aims to create a lane detection module using attention module from transformer architecture.
+This project aims to create a lane detection module using transformer architecture or pretrained GPT models.
 
 Our objective is to counter the computational constraints posed by existing methods and to devise a solution efficient enough to be trained using resources readily available to teams or individuals with low budget. This project has the potential to assist researchers and students alike, allowing them to work on similar projects without the requirement for extensive resources like GPU superclusters, which are often out of reach for many.
 
