@@ -8,14 +8,14 @@ Tesla, along with other industry leaders, employs a modified ResNet-50 model for
 
 Motivated by the success of the Stanford Alpaca team and their usage of LoRA, we plan to experiment with Facebook's LLaMA model, a pre-trained language model, to investigate if its knowledge can be transferred and applied to vision tasks. This interdisciplinary approach could provide valuable insights and expand the capabilities of machine learning models. In fact, a study from the Google Brain team suggests that transformers can perform well in some vision tasks: https://arxiv.org/pdf/2010.11929.pdf. If you have any alternative ideas for a cost-effective model, we're open to trying them as well.
 
-In terms of data collection, we'll primarily utilize the Carla Simulator. Additionally, I have access to over 50,000 miles of real street data, which is awaiting approval for use in a student project. All datasets will contain camera images with pre-labeled lanes for training.
+In terms of data collection, we'll primarily utilize the Carla Simulator. Additionally, we have access to over 50,000 miles of real street data, which is awaiting approval for use in this project. All datasets will contain camera images with pre-labeled lanes for training.
 
 We will measure the model's accuracy in lane detection and its computational efficiency to align with the overarching goals of autonomous vehicle safety and operational efficiency.
 
 Please note that this project carries a high risk and a substantial chance of failure. However, if we succeed, the potential contributions to the field could be substantial. Our primary goal will be to identify a solution, and if that's not possible, we will document our attempts and articulate our failure to meet the desired objectives so next team can start from there.
 
-We're currently looking for passionate contributors with interests in Deep Learning. If this initiative aligns with your interests, please don't hesitate to reach out at maruf [at] boltu.ai. I eagerly look forward to the prospect of collaborating on this exciting project.
+We're currently looking for passionate contributors with interests in Deep Learning. If this initiative aligns with your interests, please suggest your ideas using issues or send a pull request. We eagerly look forward to the prospect of collaborating on this exciting project.
 
-To offer a preview of what our project could yield, I've included a demo below. It demonstrates how our model will interpret a frame captured by a front-facing camera during data collection.
+To offer a preview of what our project could yield, we've included a demo below. It demonstrates how our model will interpret a frame captured by a front-facing camera during data collection.
 
 ![frenet_image](net_frenet.png)
